@@ -1,0 +1,10 @@
+group 'com.djph'
+version '1.0.0'
+
+apply plugin: 'application'
+
+mainClassName = "com.djph.gmpemp.MainApp"
+
+dependencies {
+    compile project(':dependency-project')
+}

@@ -1,0 +1,8 @@
+group 'com.djph'
+version '1.0.0'
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.fasterxml.jackson.core:jackson-core:2.6.3'
+}
