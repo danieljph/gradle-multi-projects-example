@@ -4,7 +4,8 @@ import com.djph.gmpedp.model.Person;
 import com.djph.gmpemp.controller.PersonController;
 
 /**
- * Created by dhutapea on 6/30/16.
+ *
+ * @author Daniel Joi Partogi Hutapea
  */
 public class MainApp
 {
@@ -12,6 +13,7 @@ public class MainApp
     {
         PersonController personController = new PersonController();
         Person person = personController.getPerson(1, "Daniel");
+        person.setAddress("Test address.");
         System.out.println(person);
     }
 }

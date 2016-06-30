@@ -3,7 +3,8 @@ package com.djph.gmpemp.controller;
 import com.djph.gmpedp.model.Person;
 
 /**
- * Created by dhutapea on 6/30/16.
+ *
+ * @author Daniel Joi Partogi Hutapea
  */
 public class PersonController
 {

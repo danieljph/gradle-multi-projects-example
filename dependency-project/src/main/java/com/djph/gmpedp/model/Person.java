@@ -1,13 +1,15 @@
 package com.djph.gmpedp.model;
 
 /**
- * Created by dhutapea on 6/30/16.
+ *
+ * @author Daniel Joi Partogi Hutapea
  */
 public class Person
 {
     private int id;
     private String name;
     private int age;
+    private String address;
 
     public Person()
     {
@@ -43,6 +45,16 @@ public class Person
         this.age = age;
     }
 
+    public String getAddress()
+    {
+        return address;
+    }
+
+    public void setAddress(String address)
+    {
+        this.address = address;
+    }
+
     @Override
     public String toString()
     {
@@ -50,6 +62,7 @@ public class Person
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
+                ", address='" + address + '\'' +
                 '}';
     }
 }
